@@ -24,10 +24,10 @@ The dataset contains 299 patient records with the following key features:
   ## 🔍 Exploratory Data Visualizations
 
 ### 📊 Age Distribution
-![Age Histogram](images/histogram.png)
+![Age Histogram](images/histogram.pn)
 
 ### 🧩 Feature Correlation
-![Correlation Matrix](images/correlation_matrix.png)
+![Correlation Matrix](https://github.com/Penod/heartanalysis/blob/main/correlation_matrix.png)
 
 ### 🧪 Feature Distributions by Outcome
 ![Boxplots](images/Boxplots.png)
