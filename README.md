@@ -30,7 +30,7 @@ The dataset contains 299 patient records with the following key features:
 ![Correlation Matrix](https://github.com/Penod/heartanalysis/blob/main/correlation_matrix.png)
 
 ### 🧪 Feature Distributions by Outcome
-![Boxplots](images/Boxplots.png)
+![Boxplots](https://github.com/Penod/heartanalysis/blob/main/Boxplots.png)
 
 - **Data Preprocessing**: Handling imbalance, feature scaling
 - **Modeling**:  
