@@ -21,6 +21,17 @@ The dataset contains 299 patient records with the following key features:
 ## 🧠 Methods Used
 
 - **EDA**: Correlation matrix, pairplots, histograms
+  ## 🔍 Exploratory Data Visualizations
+
+### 📊 Age Distribution
+![Age Histogram](images/histogram.png)
+
+### 🧩 Feature Correlation
+![Correlation Matrix](images/correlation_matrix.png)
+
+### 🧪 Feature Distributions by Outcome
+![Boxplots](images/Boxplots.png)
+
 - **Data Preprocessing**: Handling imbalance, feature scaling
 - **Modeling**:  
   - Logistic Regression  
