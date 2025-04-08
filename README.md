@@ -23,14 +23,15 @@ The dataset contains 299 patient records with the following key features:
 - **EDA**: Correlation matrix, pairplots, histograms
   ## 🔍 Exploratory Data Visualizations
 
-### 📊 Age Distribution
-![Age Histogram](https://github.com/Penod/heartanalysis/blob/main/histogram.png)
+<h3>📊 Distribution( Histogram)</h3>
+<img src="https://github.com/Penod/heartanalysis/blob/main/histogram.png?raw=true" width="500"/>
 
-### 🧩 Feature Correlation
-![Correlation Matrix](https://github.com/Penod/heartanalysis/blob/main/correlation_matrix.png)
+<h3>🌼 Feature Correlation</h3>
+<img src="https://github.com/Penod/heartanalysis/blob/main/correlation_matrix.png?raw=true" width="500"/>
 
-### 🧪 Feature Distributions by Outcome
-![Boxplots](https://github.com/Penod/heartanalysis/blob/main/Boxplots.png)
+<h3>📊 Feature Distributions by Outcome</h3>
+<img src="https://github.com/Penod/heartanalysis/blob/main/Boxplots.png?raw=true" width="500"/>
+
 
 - **Data Preprocessing**: Handling imbalance, feature scaling
 - **Modeling**:  
