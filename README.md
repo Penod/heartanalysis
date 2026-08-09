@@ -27,10 +27,6 @@ The more important number for this kind of problem is recall on the death class 
 
 Feature importance (tuned Random Forest, `time` excluded): `serum_creatinine` (0.44) and `ejection_fraction` (0.34) dominate, with `age` (0.14) and `serum_sodium` (0.09) contributing less - consistent with the correlation analysis, which is a reasonable sanity check.
 
-## Limitations
-
-299 patients from a single study, no external validation on a different population - performance here shouldn't be assumed to generalize. Precision on the death class is moderate at best, so this would need a clinician reviewing flagged cases in any real use, not an automated decision. This is a modeling exercise demonstrating a leakage catch and a properly tuned pipeline, not a validated clinical tool.
-
 ## Tech Stack
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
