@@ -2,11 +2,6 @@
 
 Predicts mortality risk (`DEATH_EVENT`) for heart failure patients from clinical records, using Logistic Regression and Random Forest. The dataset is the public [Heart Failure Clinical Records dataset](https://archive.ics.uci.edu/dataset/519/heart+failure+clinical+records) (299 patients).
 
-## The headline finding isn't the model - it's a data leakage bug I caught and fixed
-
-The first version of this notebook reported ~78% accuracy with `time` (days of follow-up before the outcome was recorded) as the single strongest predictor. That number was inflated: `time` isn't a real clinical signal, it's a byproduct of how the study was conducted - patients who died were, by definition, more likely to have shorter follow-up windows. At the point you'd actually want a prediction, you don't know in advance how long a patient will be followed.
-
-I tested this directly rather than just asserting it (see the notebook's "Checking the `time` Leakage Claim" section): cross-validated accuracy is actually *higher and more stable* with `time` included (0.809 ± 0.039) than without it (0.716 ± 0.068). That's worth sitting with - leakage doesn't always show up as noisy, unstable metrics. Sometimes it just makes a model look better, with nothing in the numbers themselves to flag it. The only way to catch it is by reasoning about whether a feature would actually exist at prediction time, not by watching the metrics for a red flag. `time` is excluded from every model in the current version, and the reported numbers are honestly lower than the original because of it.
 
 ## Dataset Overview
 
